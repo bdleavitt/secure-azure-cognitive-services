@@ -1,0 +1,1 @@
+az deployment group create --resource-group RG-SecureAILab-01 --template-file ./template.bicep --parameters prefix=bdl adminPassword=SomeSuperSecurePass!88
