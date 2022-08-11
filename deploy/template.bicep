@@ -377,10 +377,16 @@ resource virtualMachines_bdl_jumpbox_01_name_resource 'Microsoft.Compute/virtual
       vmSize: 'Standard_D2s_v3'
     }
     storageProfile: {
+      // imageReference: {
+      //   publisher: 'microsoft-dsvm'
+      //   offer: 'dsvm-win-2019'
+      //   sku: 'winserver-2019'
+      //   version: 'latest'
+      // }
       imageReference: {
-        publisher: 'microsoft-dsvm'
-        offer: 'dsvm-win-2019'
-        sku: 'winserver-2019'
+        publisher: 'microsoftwindowsdesktop'
+        offer: 'windows-11'
+        sku: 'win11-21h2-pro'
         version: 'latest'
       }
       osDisk: {
