@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "fieldKey": "Receipt No",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Sold To",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "ID #",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Live Delivery?",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Online Delivery?",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Video Delivery?",
+            "fieldType": "selectionMark",
+            "fieldFormat": "not-specified"
+        }
+    ]
+}
